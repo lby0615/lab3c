@@ -38,7 +38,7 @@ void print_n(const char *s, int n)
 int main(void) 
 {
   int x = atoi(readline("Enter an int: "));
-  printf("Sum is: %d\n", sum_n(x));
+  printf("Sum is %d.\n", sum_n(x));
   char *y = readline ("Enter a string: ");
   print_n(y,x);
   return 0;
